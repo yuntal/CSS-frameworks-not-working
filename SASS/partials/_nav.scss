@@ -1,0 +1,51 @@
+.navbar-brand{
+    font-size:25px;
+    color:$primary;
+    font-style: italic;
+}
+.navbar{
+    background-color:$background;
+}
+.btn{
+    background-color:$primary;   
+    color:white;
+    border-style: none;
+}
+
+
+.btn-outline-success{
+margin-left:-10px;
+}
+
+
+@media (min-width:280px) and (max-width:568px){
+    
+    .form-inline{
+        margin-left:5%;
+    }
+  #form-control{
+      max-width:83%;
+  }
+  .nav-link{
+      margin-left:6%;
+  }
+}
+
+@media (min-width:640px) and (max-width:768px){
+     .form-inline{
+        margin-left:5%;
+    }
+    .form-control{
+        margin-top:0%;
+        width:80%;
+    }
+
+  .btn{
+      margin-left:-1.5%;
+  }
+  .nav-link{
+      margin-left:6%;
+  }
+}
+
+

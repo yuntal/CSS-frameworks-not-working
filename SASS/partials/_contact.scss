@@ -1,0 +1,63 @@
+.btn-secondary{
+width:100%;
+background-color:$button-secondary;
+}
+
+.list-group-item{
+    margin-top: 7.5%;
+    border-style:none;
+    background-color: $background;
+}
+
+
+.form-group{
+    margin-top:4%;
+}
+
+.container h1{
+    margin-left:0%;
+    margin-top:12%;
+}
+
+.fa-envelope, .fa-phone, .fa-map-marker{
+    font-size:28px;
+    margin-left:20%;
+    margin-right:10%;
+    margin-top:0%;
+    opacity: .7;
+}
+.list-group-item{
+    width:auto;
+}
+
+
+
+@media (min-width:280px) and (max-width:1024px){
+
+    h1{
+        margin-top:5%;
+        margin-bottom:15%;
+        order:2;
+    }
+    .form-check-label{
+        font-size:.65em;
+        width:80%;
+    }
+
+    .fa-envelope, .fa-phone, .fa-map-marker{
+        font-size:1.2em;
+        margin-left:-5%;
+        opacity:0.7;
+        margin-bottom:1%;
+        order:1;
+    }
+    .form-control{
+        width:100%;
+    }
+    .list-group{
+        margin-bottom:20%;
+    }
+    .list-group-item{
+        text-align: left;
+    }
+}
